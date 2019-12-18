@@ -1,0 +1,40 @@
+*{margin: 0px;padding: 0px;}
+*{text-decoration: none}
+.header{width:100%;height:129px;background-color:#0068b7}
+.header{background-image: url("../img/logo-bg.jpg");
+background-position-x: right;background-position-y: center;background-size: initial;
+background-repeat-x: no-repeat;background-repeat-y: no-repeat;}
+.img-logo{position: absolute;left:150px;top: 26px}
+
+/*--右上部导航栏--*/
+    .header-lav{display: inline}
+    .header-lav li{float: left;list-style-type: none;margin-left: 8px}
+    .header-lav{position: absolute;right:180px;top:26px}
+    .header-lav li a {color:#FFFFFF;font-size: 14px;font-weight:300;line-height: 20px}
+    .header-lav li a{text-decoration: none}
+    .header-lav li a:hover{
+      text-decoration: underline;
+      color: #fff;
+    }
+/*--左上部导航栏--*/
+    .header-mav{display: inline}
+    .yellow{position: absolute;left: 7px;top:10px }
+    .blue{position: absolute;left: 52px;top:10px }
+    .orange{position: absolute;left: 110px;top:10px}
+    .pink{position: absolute;left: 155px;top:10px }
+    .header-mav li{float: left;list-style-type: none;margin-left: 16px}
+    .header-mav{position: absolute;left: 480px;top:26px}
+    .header-mav li a{color: #d3e9ff;font-size: 14px;font-weight:300;line-height: 30px}
+    .header-mav li a:hover{
+      text-decoration: underline;
+      color: #fff;}
+/*--下部导航栏--*/
+    .header-nav{display: inline}
+    .header-nav li{float: left; list-style-type: none;margin-left:36px}
+    .header-nav li a{color: floralwhite;font-size: 17px;font-weight:400;line-height: 50px}
+    .header-nav li a:hover{color: #f90}
+    .header-nav{position: absolute;right: 180px;top:66px}
+    .submenu{background-color:#0068b7;width: 150px}
+
+
+
